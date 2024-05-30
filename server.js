@@ -4,15 +4,10 @@ const app = express();
 
 app.get('/api/get', (req,res) => {
     res.send({message : 'WELCOME to Nodejs AWS Deployment'});
-    res.send({message : 'GOOD MORNING'});
 })
 
 app.get('/api/get/user', (req,res) => {
     res.send({name : 'Dibya', email: 'dev@gmail.com', 'role': 'DevOps'});
-})
-
-app.get('/api/get/details', (req,res) => {
-    res.send({name : 'Dev', email: 'dibya@gmail.com'});
 })
 
 app.listen(9000, (req,res) => {
