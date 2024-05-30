@@ -11,7 +11,7 @@ app.get('/api/get/user', (req,res) => {
 })
 
 app.get('/api/get/details', (req,res) => {
-    res.send({name : 'Dev', email: 'dev@gmail.com'});
+    res.send({name : 'Dev', email: 'dibya@gmail.com'});
 })
 
 app.listen(9000, (req,res) => {
