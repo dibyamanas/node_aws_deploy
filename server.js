@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 app.get('/api/get', (req,res) => {
-    res.send({message : 'Nodejs AWS Deployment'});
+    res.send({message : 'WELCOME to Nodejs AWS Deployment'});
+    res.send({message : 'GOOD MORNING'});
 })
 
 app.get('/api/get/user', (req,res) => {
